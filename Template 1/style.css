@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #ddd;
+}
+.navigation {
+    width: 100%;
+    height: 70px;
+    background-color: #333;
+}
+.container {
+    display: flex;
+    justify-content:space-between;
+}
+.brand {
+    margin: 23px 150px;
+    line-height: 20px;
+    font-size: 20px;
+    color: white;
+}
+.navbar {
+    margin-right: 150px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.nav-item {
+    margin-top: 23px;
+    margin-right: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.nav-item a:hover {
+    color: red;
+}
+.line {
+    width: 100%;
+    height: 3px;
+    background: red;
+}
+.background {
+    width: 100%;
+    height: 600px;
+    background-image: url("images/about_bg.jpg");
+    background-size: 100% 100%;
+}
+.letter {
+    /* margin-top: 150px; */
+    text-align: center;
+}
+.letter-2 {
+    width: 80%;
+    height: 100px;
+    background: chocolate;
+    margin: 10px 150px;
+    padding-top: 25px;
+    letter-spacing: 1.3;
+    font-size: 20px;
+}
+.showcase {
+    width: 100%;
+    height: 100px;
+    /* margin-top: 120px; */
+    background-color: black;
+}
+.container-2 {
+    display: flex;
+    justify-content: space-between;
+}
+.letter-3 {
+    padding: 35px 150px;
+    font-size: 24px;
+    color: white;
+}
+.email {
+    padding-top: 35px;
+    padding-right: 150px;
+}
+.email input {
+    height: 38px;
+    width: 250px;
+}
+.btn {
+    height: 38px;
+    width: 90px;
+    background-color: red;
+    color: black;
+    border: 0;
+    border-radius: 5px;
+    font-size: 17px;
+}
+.btn:hover {
+    background-color: white;
+}
+.about {
+    margin: 30px 150px;
+}
+.container-3 {
+    display: flex;
+}
+.about-1 p {
+    margin-right: 80px;
+    padding-top: 15px;
+    text-align: justify;
+}
+.about-2 {
+    margin-top: 20px;
+    margin-right: 80px;
+    background-color: black;
+    color: white;
+}
+.about-2 p {
+    padding: 15px;
+    text-align: justify;
+    
+}
+.about-3 {
+    margin-top: 20px;
+    margin-right: 80px;
+}
+.about-3 p {
+    text-align: justify;
+}
+.about-right {
+    background-color: black;
+    color: white;
+    margin: 15px;
+    margin-right: auto;
+    height: 200px;
+}
+.about-4 {
+    padding: 20px 15px;
+}
+.about-4 p {
+    padding-top: 20px;
+}
+.footer-sec {
+    width: 100%;
+    height: 120px;
+    background-color: tomato;
+}
+.footer-letter {
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
